@@ -1,0 +1,43 @@
+*,*:before,*::after{
+    padding: 0;
+    margin: 0;
+    box-sizing: inherit;
+}
+
+body {
+    padding-top: 50px;
+}
+
+#welcome-banner {
+    background-color: rgb(152, 158, 143);
+}
+
+.nav-link, .navbar-brand {
+    color: rgb(152, 158, 143);
+}
+
+.nav-link:hover {
+    color: black;
+}
+
+.navbar-brand:hover {
+    color: black;
+}
+
+#profile h3 {
+    color: rgb(152, 158, 143);
+}
+
+#profile-img {
+    border-radius: 10%;
+    opacity: 0.7;
+    box-shadow: 10px 10px 5px grey;
+}
+
+#login {
+    color: rgb(152, 158, 143);
+}
+
+#register {
+    color: rgb(152, 158, 143);
+}
