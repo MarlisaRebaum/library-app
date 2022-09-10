@@ -50,8 +50,8 @@ class User(db.Model, UserMixin):
 
 class Book(db.Model):
     id = db.Column(db.String, primary_key = True)
-    book_title = db.Column(db.String(150))
-    author = db.Column(db.String(150))
+    book_title = db.Column(db.String(5000))
+    author = db.Column(db.String(5000))
     ISBN = db.Column(db.Integer)
     length = db.Column(db.Integer)
     cover_type = db.Column(db.String(150))
