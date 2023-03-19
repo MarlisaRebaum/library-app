@@ -42,7 +42,7 @@ With python I Always suggest a virtual environment.
 Clone this repo
 
 ```
-git clone https://github.com/MarlisaRebaum/phonebook-app.git
+git clone https://github.com/MarlisaRebaum/library-app
 
 cd library-app
 ```  
